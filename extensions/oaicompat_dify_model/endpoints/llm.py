@@ -132,7 +132,7 @@ class OaicompatDifyModelEndpoint(Endpoint, BaseAuth):
                                 ],
                             }
                         )
-                        + "\n\n"
+                        + "\n"
                     )
 
         return Response(
